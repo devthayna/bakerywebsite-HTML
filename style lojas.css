@@ -1,0 +1,45 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+
+#lojasindice {
+    background-color: rgb(46, 40, 29);
+    color: antiquewhite;
+}
+
+#lojasicone {
+    width: 160px;
+    height: 160px;
+    top: 9px;
+    left: 9px;
+}
+
+div.lojas {
+    width: 900px;
+    margin: auto;
+    background-color: rgba(253, 210, 167, 0.699);
+    color: rgb(252, 104, 6);
+}
+
+#lojastitulo {
+    color: rgb(95, 69, 59);
+}
+
+div.box {
+    display: inline-block;
+}
+
+#lojasfinal {
+    background-color: rgb(37, 31, 26);
+    background-clip: content-box;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" type="text/css" href="../CSS/style pedido.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet"/>
+        <title>Pedido</title>
+    </head>
+    
+
+    <body>
+        <script >
+            alert ("Pão D'Oro");
+        </script>
+            
+
+        <div id="pedidoindice">
+            <table>
+                <tr>
+                    <td><img src="../IMG/Íconepng.png" id="pedidoicone" alt="Logo Pão D'Oro"></td>
+                    <td><h1><i>Padaria Pão D'Oro</i></h1></td>
+                </tr>
+            </table>
+
+            <blockquote>
+                <h3>
+                    <a href="Homepage.html" title="Home"> Homepage  </a> |
+                    <a href="Produtos.html" title="Produtos">  Cardápio  </a> |
+                    <a href="Lojas.html" title="Filiais">  Nossas Lojas  </a> |
+                    <a href="Pedido.html" title="Pedido">  Faça seu Pedido  </a> |
+                    <a href="Info.html" title="Info">  Informações adicionais</a>
+                </h3>
+            </blockquote>
+            <br>
+        </div>
+
+        <div class="form">
+            <center><h1><i>Faça seu pedido online!</i></h1></center>
+
+            <form method="post" id="form" class="form">
+
+                <h2>Informações pessoais</h2>
+
+                <div class="form-control">
+                    <label for="nome"> Nome: </label>
+                        <input 
+                            id="username"
+                            type="text" 
+                            name="Nome" 
+                            placeholder="Digite seu nome completo">
+
+                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-check-circle"></i>
+                            <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-control">
+                    <label for="caledario"> Data da entrega: </label>
+                        <input 
+                            id="data" 
+                            type="date" 
+                            name="nascimento">
+
+                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-check-circle"></i>
+                            <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-control">
+                    <label for="correioeletronico"> E-mail: </label>
+                        <input 
+                            id="email" 
+                            name="E-mail" 
+                            type="email" 
+                            placeholder="Digite seu e-mail">
+
+                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-check-circle"></i>
+                            <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-control">
+                    <label for="telefone"> Telefone para contato: </label >
+                        <input
+                            id="tel"
+                            type="tel"
+                            name="telefone"
+                            placeholder="Digite seu telefone">
+
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-control">
+                    <label for="cep"> CEP para entrega: </label >
+                        <input
+                            id="cep"
+                            type="number"
+                            name="cep"
+                            min="0"
+                            max="100000000"
+                            placeholder="Apenas números"
+                            required>
+
+                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-check-circle"></i>
+                            <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-control">
+                    <label for="mensagem"> Digite seu pedido: </label>
+                        <textarea 
+                            id="texto" 
+                            name="mensagem" 
+                            rows ="7"
+                            cols ="40"
+                            maxlength="1000">
+                        </textarea>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="form-control">
+                    <label for="password"> Senha: </label>
+                        <input 
+                            id="password" 
+                            type="password" 
+                            name="senha" 
+                            placeholder="Digite sua Senha">
+
+                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-check-circle"></i>
+                            <small>Mensagem de erro</small>
+                </div>
+                <br>
+                <br>
+
+                <input 
+                    id="botao" 
+                    type="submit" 
+                    value="Enviar">
+            </form>
+            <br>
+            <br>
+        </div>
+
+        <script
+        src="https://kit.fontawesome.com/f9e19193d6.js"
+        crossorigin="anonymous"
+        ></script>
+        <br><br>
+
+        <footer>
+            <br>
+                <center>
+                    <h3>
+                        <a href="Lojas.html">⇽</a> 
+                        <a href="Homepage.html"> 1</a> 
+                        <a href="Produtos.html"> 2</a> 
+                        <a href="Lojas.html"> 3</a>
+                        <a href="Pedido.html"> 4</a>
+                        <a href="Info.html"> 5</a>
+                        <b><a href="Info.html"> ⇾</a></b>
+                    </h3>
+                </center>
+            <br>
+        </footer>    
+        
+        <script src="../JAVA/Java.js"></script>
+
+    </body>
+
+</html>

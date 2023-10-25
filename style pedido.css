@@ -1,0 +1,106 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: url(../IMG/Wallpaper3.jpg);
+    background-attachment: scroll;
+    background-repeat: repeat;
+}
+
+#pedidoindice {
+    background-color: rgb(46, 40, 29);
+    color: antiquewhite;
+}
+
+#pedidoicone {
+    width: 160px;
+    height: 160px;
+    top: 9px;
+    left: 9px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+div.form {
+    width: 750px;
+    margin: auto;
+    background-color: rgba(250, 235, 215, 0.863);
+    color: rgb(119, 94, 71);
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button {
+    background-color: #524b35;
+    border: 2px solid #635b42;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+footer {
+    background-color: rgb(75, 71, 66);
+    background-clip: content-box;
+    color: aliceblue;
+}
